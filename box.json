@@ -1,0 +1,26 @@
+{
+    "name":"Preside Extension: Pwned Passwords",
+    "version":"1.0.0",
+    "author":"Sacha Moufarrege",
+    "directory":"application/extensions",
+    "repository":{
+        "type":"git",
+        "URL":"https://github.com/smoufa/preside-ext-pwnedpasswords"
+    },
+    "projectURL":"https://github.com/smoufa/preside-ext-pwnedpasswords",
+    "slug":"preside-ext-pwnedpasswords",
+    "type":"preside-extensions",
+    "ignore":[
+        ".git/*",
+        ".gitignore",
+        ".travis.yml",
+        ".twgit_features_subject",
+        "test.sh"
+    ],
+    "devDependencies":{
+        "testbox":"2.2.0"
+    },
+    "installPaths":{
+        "testbox":"tests/testbox"
+    }
+}
