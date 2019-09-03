@@ -8,19 +8,12 @@
         "URL":"https://github.com/smoufa/preside-ext-pwnedpasswords"
     },
     "projectURL":"https://github.com/smoufa/preside-ext-pwnedpasswords",
+    "location":"https://github.com/smoufa/preside-ext-pwnedpasswords/archive/v1.0.0.zip",
     "slug":"preside-ext-pwnedpasswords",
     "type":"preside-extensions",
     "ignore":[
         ".git/*",
         ".gitignore",
-        ".travis.yml",
-        ".twgit_features_subject",
-        "test.sh"
+        ".twgit_features_subject"
     ],
-    "devDependencies":{
-        "testbox":"2.2.0"
-    },
-    "installPaths":{
-        "testbox":"tests/testbox"
-    }
 }
