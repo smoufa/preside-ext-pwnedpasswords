@@ -1,0 +1,6 @@
+{
+	  "id"        : "preside-ext-pwnedpasswords"
+	, "title"     : "Pwned Passwords Check for Preside"
+	, "author"    : "Sacha Moufarrege"
+	, "version"   : "1.0.0"
+}
