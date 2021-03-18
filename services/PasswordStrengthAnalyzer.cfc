@@ -6,10 +6,10 @@
  */
 component extends="preside.system.services.passwordPolicy.PasswordStrengthAnalyzer" {
 
-	property name="hibpService" inject="PwnedPasswordService";
+	property name="hibpService" inject="PwnedPasswordsService";
 
 	public numeric function calculatePasswordStrength( required string password ) {
-		if ( $isFeatureEnabled( "pwnedPasswords" ) && hibpService.isPasswordCompromised( arguments.password ) ) {
+		if ( $isFeatureEnabled( "pwnedPasswords" ) && hibpService.passwordIsCompromised( arguments.password ) ) {
 			return 5;
 		}
 
